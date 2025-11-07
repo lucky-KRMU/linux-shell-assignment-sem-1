@@ -1,11 +1,16 @@
 #!/bin/bash
 
+# Script: automated_download.sh
+# Purpose: Downloads a specific file from a URL and saves it to a designated local folder. 
+# Author: Lucky Pawar 
+# Date: 2025-11-07
+
 # --- Configuration ---
 # 1. Variable for the URL of the file to download
-DOWNLOAD_URL="http://example.com/somefile.txt" # !! CHANGE THIS to the actual file URL !! 
+DOWNLOAD_URL="https://ncert.nic.in/textbook/pdf/lemh104.pdf"
 
 # 2. Variable for the target directory to save the file
-TARGET_DIR="/home/user/downloads/web_files" # !! CHANGE THIS to your desired download folder !! 
+TARGET_DIR="D:\KRMU\Sem-1\CSFCP\Assignments\A-2\Solutions\Code\proj_files" 
 
 # 3. Extract the filename from the URL for easier reference
 FILENAME=$(basename "$DOWNLOAD_URL") 

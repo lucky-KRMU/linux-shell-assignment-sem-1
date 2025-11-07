@@ -1,8 +1,14 @@
 #!/bin/bash
 
+# Script: monitor_system.sh
+# Purpose: Logs the current CPU and memory usage to a file at a defined interval. 
+# Author: Lucky Pawar 
+# Date: 2025-11-07
+
+
 # --- Configuration ---
 # 1. Define the log file path
-LOG_FILE="/home/user/system_monitor.log" # !! CHANGE THIS path if necessary !! 
+LOG_FILE="D:\KRMU\Sem-1\CSFCP\Assignments\A-2\Solutions\Code\proj_files\system_monitor.log" 
 
 # 2. Define the monitoring interval (in seconds)
 INTERVAL_SECONDS=5 # Log data every 5 seconds 

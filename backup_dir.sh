@@ -1,11 +1,17 @@
 #!/bin/bash
 
+# Script: backup_dir.sh
+# Purpose: Copies a specified source directory to a designated backup location, appending a timestamp to the backup folder name for unique identification.
+# Author: Lucky Pawar 
+# Date: 2025-11-07
+
+
 # --- Configuration ---
 # 1. Variable for the directory to be backed up
-SOURCE_DIR="/home/user/my_project_files"  # !! CHANGE THIS to your desired source directory !! 
+SOURCE_DIR="D:\KRMU\Sem-1\CSFCP\Assignments\A-2\Solutions\Code\proj_files" 
 
 # 2. Variable for the main backup location
-BACKUP_ROOT_DIR="/home/user/backups"     # !! CHANGE THIS to your desired backup storage location !! 
+BACKUP_ROOT_DIR="D:\KRMU\Sem-1\CSFCP\Assignments\A-2\Solutions\Code\Backup" 
 
 # 3. Create a timestamp in YYYY-MM-DD-HHMMSS format
 TIMESTAMP=$(date +%Y-%m-%d-%H%M%S) 
